@@ -12,6 +12,7 @@ This project unifies two important use cases into one cohesive agentic applicati
 - **Agentic Workflow**: Classifies queries, fetches log metrics, retrieves runbook context, and generates structured RCA.
 - **Structured RCA Output**: Returns Probable Root Cause, Evidence, Remediation Steps, Confidence Score, Citations, and Escalation recommendations.
 - **Mock Mode**: Out-of-the-box local execution without requiring AWS credentials (`LLM_PROVIDER=mock`).
+- **Local Ollama Integration**: Use a local Ollama service for running open-source models offline (`LLM_PROVIDER=ollama-local`).
 - **AWS Bedrock Integration**: Seamlessly switch to real AWS Bedrock by updating `.env` (`LLM_PROVIDER=bedrock`).
 
 ## Architecture
